@@ -146,9 +146,3 @@ SPECTRA aligns with:
 3. Integration with EDR platforms (CrowdStrike Falcon) for SOC workflow compatibility.
 4. Real-time model content analysis for DLP-style governance at the inference layer.
 5. Cloud-native deployment via Kubernetes for production enterprise environments.
-
-## Author
-
-**Medha** - MSc Cybersecurity, REVA Academy for Corporate Excellence (RACE), REVA University
-
-Capstone Project under the guidance of Dr. J B Simha, CTO of ABIBA Systems.
