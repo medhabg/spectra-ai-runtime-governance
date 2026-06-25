@@ -1,0 +1,7 @@
+{
+  "hostname": "ENDPOINT-042",
+  "department": "engineering",
+  "is_critical": false,
+  "ai_approved": false,
+  "owner": "user@company.com"
+}

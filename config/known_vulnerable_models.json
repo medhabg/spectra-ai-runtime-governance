@@ -1,0 +1,34 @@
+{
+  "known_vulnerable_models": [
+    {
+      "model_name": "llama-7b-gguf-q4",
+      "cve_id": "CVE-2024-39201",
+      "description": "Prompt injection vulnerability in llama.cpp GGUF loader allows remote attackers to execute arbitrary instructions via crafted model metadata.",
+      "severity": "high"
+    },
+    {
+      "model_name": "gpt4all-falcon-q4",
+      "cve_id": "CVE-2024-41055",
+      "description": "Insecure deserialization in GPT4All model loader permits privilege escalation through malformed .bin model files.",
+      "severity": "critical"
+    },
+    {
+      "model_name": "mistral-7b-instruct-v0.1",
+      "cve_id": "CVE-2024-43882",
+      "description": "Unvalidated model file paths in Ollama runtime allow directory traversal attacks when loading locally cached models.",
+      "severity": "medium"
+    },
+    {
+      "model_name": "codellama-13b-gguf",
+      "cve_id": "CVE-2024-47210",
+      "description": "Memory buffer overflow in llama.cpp inference engine when processing extremely long context windows in CodeLlama variants.",
+      "severity": "high"
+    },
+    {
+      "model_name": "phi-2-gguf-q5",
+      "cve_id": "CVE-2024-50133",
+      "description": "LM Studio REST API exposed on 0.0.0.0 without authentication, allowing unauthenticated inference requests from local network.",
+      "severity": "critical"
+    }
+  ]
+}

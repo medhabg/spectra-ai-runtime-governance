@@ -1,0 +1,32 @@
+{
+  "policy_rules": [
+    {
+      "rule_id": "POL-001",
+      "department": "finance",
+      "description": "No LLM runtimes are permitted on finance endpoints under any circumstances.",
+      "action": "block",
+      "severity": "critical"
+    },
+    {
+      "rule_id": "POL-002",
+      "department": "legal",
+      "description": "LLM runtimes on legal endpoints require prior HR approval and security sign-off.",
+      "action": "alert",
+      "severity": "high"
+    },
+    {
+      "rule_id": "POL-003",
+      "department": "engineering",
+      "description": "Approved LLM runtimes are permitted on engineering endpoints with valid whitelist entry.",
+      "action": "allow",
+      "severity": "low"
+    },
+    {
+      "rule_id": "POL-004",
+      "department": "hr",
+      "description": "Unapproved LLM runtimes on HR endpoints trigger an immediate security alert.",
+      "action": "alert",
+      "severity": "high"
+    }
+  ]
+}

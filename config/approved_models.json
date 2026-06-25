@@ -1,0 +1,16 @@
+{
+  "approved_models": [
+    {
+      "name": "llama2-approved",
+      "approved_by": "security-team@company.com",
+      "approval_date": "2024-09-01",
+      "endpoint_tag": "engineering"
+    },
+    {
+      "name": "gpt4all-corporate",
+      "approved_by": "ciso@company.com",
+      "approval_date": "2024-11-15",
+      "endpoint_tag": "general"
+    }
+  ]
+}

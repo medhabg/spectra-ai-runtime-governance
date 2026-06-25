@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "siem_endpoint": "http://localhost:9200/llm-hunter-events/_doc",
+  "host": "127.0.0.1",
+  "port": 514,
+  "protocol": "udp",
+  "fallback_log_file": "./logs/siem_fallback.jsonl",
+  "timeout_seconds": 3
+}

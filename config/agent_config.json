@@ -1,0 +1,8 @@
+{
+  "scan_interval_minutes": 5,
+  "log_path": "./logs/",
+  "siem_enabled": false,
+  "whitelist_path": "./config/approved_models.json",
+  "policy_path": "./config/policy_rules.json",
+  "debug": true
+}
